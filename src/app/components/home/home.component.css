@@ -1,0 +1,9 @@
+.home-page{
+    height: 100vh;
+    display: grid;
+    place-items:center;
+}
+a{
+    display: block;
+    float:right
+}

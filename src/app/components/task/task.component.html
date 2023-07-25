@@ -1,0 +1,3 @@
+<app-add-task (onAddTask)="onAddNewTask($event)" />
+<p *ngIf="tasks.length===0">No tasks created</p>
+<app-task-item (onToggleReminder)="toggleReminder(task)" (onDelete)="deleteTask(task)" *ngFor='let task of tasks' [task]="task" />
