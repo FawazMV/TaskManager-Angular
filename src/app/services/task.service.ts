@@ -27,6 +27,9 @@ export class TaskService {
     return false
   }
 
+  clearTask() {
+    window.localStorage.removeItem('tasks')
+  }
 
   addItem(task: Task): Task {
     let tasks: Task[] = this.getTask()

@@ -24,6 +24,11 @@ export class TaskComponent implements OnInit {
 
   }
 
+  clearAllTask() {
+    this.service.clearTask()
+    this.tasks = []
+  }
+
   onAddNewTask(newTask: Task) {
     this.tasks.unshift(this.service.addItem(newTask))
   }
