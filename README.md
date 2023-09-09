@@ -1,4 +1,16 @@
-# TodoApp
+# Task Manager
+
+This is an application that allows users add their to-do's and manage them.
+
+## Frontend
+
+The project is deployed at  https://fawazmv.github.io/TaskManager-Angular
+
+
+
+![image](https://github.com/FawazMV/TaskManager-Angular/blob/master/src/assets/task-manager.png)
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
